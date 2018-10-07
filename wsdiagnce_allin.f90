@@ -1,6 +1,6 @@
 MODULE DECLARE
-    integer,parameter::mxt=256,mzt=256,myt=16,n=200*2,np=mxt,nnn=1000
-    integer,parameter::nprx=4,nprz=8,npry=1,mnst=73
+    integer,parameter::mxt=256,mzt=256,myt=32,n=200*2,np=mxt,nnn=1000
+    integer,parameter::nprx=8,nprz=8,npry=1,mnst=73
     integer,parameter::mxm=mxt/nprx,mzm=mzt/nprz,mym=myt/npry,mx=mxm+4,mz=mzm+4,my=mym+4
 !    real*8,parameter::pi=3.141592654 !,rmin=3.0,rmax=5.0,zmin=-1.5,zmax=1.5
     real*8, parameter :: pi=dacos(-1.d0)
